@@ -1,0 +1,98 @@
+.flexCol {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.withdraw {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #00203D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 360px;
+}
+
+.header_title {
+    font-size: 18px;
+    color: #E3F2FF;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.text {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.footer_text {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.total_field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.total_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 49%;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: linear-gradient(111.49deg,hsla(0,0%,100%,.2) -8.95%,hsla(0,0%,100%,.02) 114%);
+
+}
+.url {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background: linear-gradient(111.49deg,hsla(0,0%,100%,.2) -8.95%,hsla(0,0%,100%,.02) 114%);
+}
+.input {
+    font-weight: 400;
+    font-size: 14px;
+}
+.value_field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 50px;
+}
+.earned {
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .flexCol {
+        width: 100%!important;
+        margin: 10px 0;
+    }
+}
+
+.text_copy {
+    font-size: 10px;
+    font-weight: 800;
+    color: #ffffff
+}

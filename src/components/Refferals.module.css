@@ -1,0 +1,146 @@
+.refferals {
+    width: 100%;
+    height: 280px;
+    background-color: #00203D;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 20px;
+}
+
+.invest {
+    width: 100%;
+    background-color: #00203D;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.invest input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    background: rgb(92, 159, 226);
+}
+
+.invest input.address {
+    width: 400px!important;
+}
+
+.invest button {
+    font-size: 18px;
+    border-radius: 10px;
+    border-width: 0;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(111.49deg,hsla(0,0%,100%,.2) -8.95%,hsla(0,0%,100%,0.1) 114%);
+    transition: all .2s ease-in-out;
+    outline: none;
+    padding: 5px 20px;
+}
+
+.title {
+    font-size: 18px;
+    color: #E3F2FF;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.name {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.avax_value {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.deposit_input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    background:rgb(92, 159, 226)
+}
+.bonus {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.bonus_value {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.input {
+    background: linear-gradient(111.49deg,hsla(0,0%,100%,.2) -8.95%,hsla(0,0%,100%,.02) 114%);
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.input_name {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.input_value {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.btn {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border-width: 0;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(111.49deg,hsla(0,0%,100%,.2) -8.95%,hsla(0,0%,100%,0.1) 114%);
+    transition: all .2s ease-in-out;
+    outline: none;
+    padding: 5px 5px;
+    margin: auto;
+    cursor: pointer;
+}
+.flexCol {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.goldicon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .flexCol {
+        width: 100%!important;
+        margin: 10px 0;
+    }
+}

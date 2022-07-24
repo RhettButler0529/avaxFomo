@@ -1,0 +1,39 @@
+.total {
+    width: 32%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    border-radius: 20px;
+    background-color: #00203D;
+    min-height: unset;
+    padding: 25px 25px;
+}
+.total_img {
+    width: 45px;
+    margin-right: 12px;
+}
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.text {
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(229, 229, 229);
+}
+.progress {
+    font-size: 23px;
+    margin-left: auto;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 1000px) {
+    .total {
+        margin: 10px 0;
+        width: 100%;
+    }
+}

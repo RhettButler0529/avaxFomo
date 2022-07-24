@@ -1,0 +1,40 @@
+
+.clock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-top: 0.5%;
+    padding-left: 85vmin;
+    
+}
+.dhms {
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: beige; */
+}
+.small {
+    font-size: 0.8rem;
+    padding-bottom: 10%;
+}
+
+@media screen and (max-width: 990px) {
+    .clock {
+        padding-left: 10vmin;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .clock {
+        padding-left: 15vmin;
+    }
+}
+@media screen and (max-width: 1290px) {
+    .clock {
+        padding-left: 35vmin;
+    }
+}

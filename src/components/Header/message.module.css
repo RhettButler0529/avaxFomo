@@ -1,0 +1,25 @@
+
+.dflexRow {
+    display: flex;
+    align-items: center;
+    padding-top: 1.2vmin;
+    text-align: center;
+}
+.headerTool {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 30px;
+    background-color: #007FF5;
+    width: 100%;
+}
+
+.headerToolResponsive {
+    display: none;
+}
+
+.p {
+    text-align: center;
+    justify-content: center;
+    padding-right: 50%;
+}

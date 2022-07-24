@@ -1,0 +1,52 @@
+.body {
+    margin: 0px;
+    min-height: 100vh;
+    background-color: rgb(28, 28, 40);
+    color: rgb(255, 255, 255);
+    font-family: Poppins, -apple-system;
+    background-image: url("bgpirates.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+}
+.flexRow {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+    margin: auto;
+    max-width: 1070px;
+}
+.footer {
+    height: 50px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(160, 150, 150);
+    margin-top: 80px;
+}
+.footer_img {
+    width: 20px;
+    margin: 0px 5px 5px 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+iframe {
+    display: none;
+}

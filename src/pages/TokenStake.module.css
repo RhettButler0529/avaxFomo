@@ -1,0 +1,241 @@
+.ftm {
+    width: 100%;
+    padding: 18px 22px 22px;
+    border-radius: 20px;
+    background-color: #00203D;
+    /* opacity: 100%; */
+    /* margin: auto; */
+}
+.header {
+    font-size: 20px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(160, 231, 255);
+}
+.header_img {
+    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 30%;
+    aspect-ratio: auto 52 / 52;
+}
+.title_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(160, 231, 255);
+}
+.title_comment {
+    line-height: 1;
+    font-size: 10px;
+    color: white;
+    margin-top: 5px;
+}
+.flexRow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view_contract {
+    font-size: 16px;
+    padding-top: 6px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    color: rgb(241, 60, 242);
+    text-decoration: none;
+}
+.view_contract:hover {
+    color: rgb(241, 60, 242);
+    text-decoration:underline;
+}
+.viewContract_icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+.price_field {
+    font-size: 24px;
+    margin-left: auto;
+}
+.price_name {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.ftm_value {
+    font-size: 16px;
+    font-weight: 800;
+    color: #C3F53C;
+}
+.usd_price {
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 30%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.body {
+    margin-top: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #003566;
+}
+.body_item {
+    padding-bottom: 15px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.text {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(229, 229, 229);
+}
+.line {
+    margin: 14px 10px 4px;
+    flex: 1 1 0%;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.16);
+}
+.number {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.number_return {
+    font-size: 14px;
+    font-weight: 800;
+    color: #C3F53C;
+}
+.metamask {
+    margin-top: 20px;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    gap: 15px;
+}
+.metamask_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0px 18px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 42px;
+    transition: all 0.2s ease-in-out 0s;
+    font-family: inherit;
+    background: transparent;
+}
+.metamask_btn:hover {
+    background-color: rgb(207, 207, 207);
+    opacity: 0.8;
+}
+.metamask_icon {
+    margin: 0px 0px 0px 5px;
+}
+.plus_icon {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1f5a8d;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+.amount_name {
+    color: white;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+.balance {
+    color: white;
+    font-size: 13px;
+    margin-left: 3px;
+    border: none;
+    outline: none;
+}
+.amount_value {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+}
+.rol {
+    font-size: 14px;
+    color: white;
+}
+.deposit_field {
+    width: calc(50% - 10px);
+    display: flex;
+    justify-content: center;
+}
+.deposit_input {
+    border: none;
+    outline: none;
+    margin-left: 12px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    width: calc(100% - 30px);
+    background:#3399F7
+}
+.deposit_btn {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: #007FF5;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.goldicon {
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .ftm {
+        width: 100%!important;
+        margin: 10px 0;
+    }
+}
+
+.deposit_btn:disabled {
+    cursor: not-allowed;
+}

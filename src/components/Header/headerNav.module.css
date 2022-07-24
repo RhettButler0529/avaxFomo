@@ -1,0 +1,190 @@
+
+.dflexRow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.headerTool {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 80px;
+    padding: 0px 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0px 32px;
+}
+
+.headerToolResponsive {
+    display: none;
+}
+.navToolbarLink {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 80px;
+    font-weight: 500;
+    margin: 0px 20px!important;
+    font-size: 16px;
+    cursor: pointer;
+    color: #c5bebe!important;
+}
+.spider {
+    position: absolute;
+    bottom: -30px;
+    /* left: 80px; */
+    font-family: inherit;
+    border: none;
+    background: transparent;
+}
+.spider_img {
+    width: 20px;
+}
+.navToolbarLink:hover {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 80px;
+    font-weight: 500;
+    margin: 0px 20px!important;
+    font-size: 16px;
+    color: white!important;
+}
+.activeNavToolbarLink {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 80px;
+    font-weight: 500;
+    margin: 0px 20px;
+    font-size: 18px;
+}
+.navbarLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbarLogoImg {
+    width: 140px;
+    margin-bottom: 5px;
+}
+
+.navbarSearchIcon {
+    font-size: 15px;
+    color: white;
+}
+.navbarSearchInput {
+    background: none;
+    border: none;
+    outline: none;
+    height: 43px;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+}
+.navbarSearchInput::placeholder {
+    color: white;
+    font-size: 14px;
+    opacity: 1;
+  }
+.navResponsiveToolbarLink {
+    font-size: 14px;
+    color: white;
+    margin: 0 7px;
+}
+.priceSection {
+    padding-right: 0!important ;
+
+}
+.priceIcon {
+    width: 30px;
+    aspect-ratio: auto 30 / 30;
+    height: 30px;
+    display: inline-block;
+    border-radius: 30%;
+    margin-right: 8px;
+}
+.priceField {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 5px 12px 5px 5px;
+    border-radius: 10px;
+    background-color: rgb(16, 21, 28);
+    pointer-events: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.priceValue {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255)!important;
+}
+.walletBtn {
+    padding: 0px 18px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 46px;
+    background-image: linear-gradient(93deg, #007FF5 0%, #007FF5 40%, #007FF5 70%, #007FF5 102%);
+    background-position: -2px 0%;
+    background-size: 220% 100%;
+    margin-right: 20px;
+    border: none;
+}
+.walletBtn:hover {
+    background-image: linear-gradient(93deg, #003566 102%, #003566 40%, #003566 70%, #003566 102%, #003566 0%);
+    transition: all 0.2s ease-in-out 0s!important;
+}
+.walletImg {
+    margin-right: 8px!important;
+    width: 22px!important;
+    height: 22px!important;
+}
+.walletBtn_m {
+    margin-left: 8px;
+}
+
+.menuMore {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 46px;
+    width: 46px;
+    background: rgb(16, 21, 28);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menuMore:hover {
+    background-color: rgb(6, 29, 64);
+}
+
+@media screen and (max-width: 1400px) {
+    .priceSection {
+        display: none!important;
+    }
+}
+@media screen and (max-width: 990px) {
+    .navSection {
+        display: none!important;
+    }
+}
